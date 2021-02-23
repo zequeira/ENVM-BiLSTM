@@ -27,6 +27,7 @@ The model was trainned on different spectral and chroma features extracted from 
 ## Results
 
 The [DNLE dataset](https://github.com/zequeira/DNLE) was split into 90% for training and 10% for testing. The model was trained with an *"adam"* optimizer, a learning rate of 0.0005, and a batch size of 675.
+<br>
 The model achieved an RMSE of 4.58 on average with a minimum of 0.5 and a maximum of 14.4 (scale of 30.6dBA to 81.3dBA), and a standard deviation of 2.72 on the test dataset.
 
 
